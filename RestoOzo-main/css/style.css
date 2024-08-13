@@ -197,7 +197,7 @@ body {
     color: rgb(0, 0, 0);
     position: absolute;
     bottom: 1365px;
-    left: 215px;
+    left: 220px;
 }
 
 .kupon {
@@ -208,6 +208,7 @@ body {
     height: 50px;
     bottom: 410px;
     position: relative;
+	left: 24px;
 }
 
 .kupon:hover {
