@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
-	background-image: url(image_baackground);
+	background-image: url(image_background.png);
 	/* background-repeat: no-repeat; */
 	/* background-position: center; */
 	background-attachemnt: fixed;
@@ -11,8 +11,8 @@ body {
 
 h1 {
 	font-size: 50px;
-	color: #000000;
-	color: black;	
+	color: hwb(197 30% 17%);
+	color: hwb(197 30% 17%);	
 	font-family: 'Open Sans', sans-serif;
 	width: fit-content;
 	text-align: center;
@@ -23,7 +23,7 @@ h1 {
 .content-title {
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid hwb(197 30% 17%);
 }
 
 .content {
