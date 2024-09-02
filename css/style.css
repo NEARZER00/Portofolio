@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
+    /* background-image: url(image_background.png); */
 	background-image: url(image_background.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	/* background-repeat: no-repeat; */
+	/* background-position: center; */
 	background-attachemnt: fixed;
 	background-size: cover;
 	margin: 0 auto;
+    height: 100vh;
 }
 
 h1 {
@@ -15,6 +17,14 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 	width: fit-content;
 	text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
 }
 
 .content {
@@ -24,10 +34,24 @@ h1 {
 	width: 100%;
 }
 
+.box-1 {
+    /* background-color: #7ff07f; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portofolio-thumbnail .img-porto {
+    text-align: center;
+}
+
+.section {
+    /* background-color: whitesmoke; */
+}
+
 .links {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	padding-left: 0;
-	list-style: none;
 	text-align: center;
 }
 
@@ -36,7 +60,7 @@ h1 {
 	text-decoration: none;
 }
 
-. .links ul a {
+.links ul a {
 	font-size: 50px;
 	color: #000000;
 	color: black;	
